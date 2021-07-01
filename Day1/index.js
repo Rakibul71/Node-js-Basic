@@ -1,4 +1,4 @@
-const nill = require("fs");
+// const nill = require("fs");
 
 //creating a new file
 // nill.writeFileSync("read.txt", "welcome to first file");
@@ -8,4 +8,7 @@ const nill = require("fs");
 
 // data rename file
 
-nill.renameSync("read.txt", "rename.txt");
+// nill.renameSync("read.txt", "rename.txt");
+
+const crud = require("fs");
+crud.writeFileSync("bioo.text", "My name is rakibul Islam");
